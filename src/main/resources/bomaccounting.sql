@@ -104,7 +104,7 @@ CREATE TABLE `sys_user` (
 -- ----------------------------
 -- Records of sys_user
 -- ----------------------------
-INSERT INTO `sys_user` VALUES ('1', 'admin', 'be98207ac6d9de9ce8f53ada21922be3', '管理员', '0', '2019-04-28 00:00:00', '1');
+INSERT INTO `sys_user` VALUES ('1', 'admin', '928bfd2577490322a6e19b793691467e', '管理员', '0', '2019-04-28 00:00:00', '1');
 
 -- ----------------------------
 -- Table structure for `sys_user_role`
