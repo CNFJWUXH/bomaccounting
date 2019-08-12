@@ -129,6 +129,12 @@
 
 <script th:inline="javascript">
 
+    function toAdd() {
+        $("#id").val("");
+        $("#role").val("");
+        $("#description").val("");
+    }
+
     $("#saveBtn").click(function () {
         if ($("#role").val()==null || $("#role").val()==""){
             alert("角色不能为空")
@@ -161,12 +167,6 @@
             }
         })
     })
-
-    function toAdd() {
-        $("#id").val("");
-        $("#role").val("");
-        $("#description").val("");
-    }
 
     function toEdit(id) {
         console.log(id);

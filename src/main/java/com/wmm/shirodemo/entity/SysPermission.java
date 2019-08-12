@@ -1,5 +1,6 @@
 package com.wmm.shirodemo.entity;
 
+import com.fasterxml.jackson.annotation.JsonBackReference;
 import com.fasterxml.jackson.annotation.JsonFormat;
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 
@@ -110,6 +111,7 @@ public class SysPermission {
         return roles;
     }
 
+    @JsonBackReference
     public void setRoles(List<SysRole> roles) {
         this.roles = roles;
     }
